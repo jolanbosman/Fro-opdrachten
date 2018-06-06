@@ -1,11 +1,13 @@
 # Fro-opdrachten
 Fro opdrachten
+Live-versie Links
 
 responsive menu met submenu:
 http://24572.hosts.ma-cloud.nl/bewijzenmap/periode1.4/fro/opdracht2/
 
 
-Komende Opdracht:
+Layout Grid Area´s:
+http://24572.hosts.ma-cloud.nl/bewijzenmap/periode1.4/fro/layout_grid_areas/
 
 
 Komende Opdracht:
