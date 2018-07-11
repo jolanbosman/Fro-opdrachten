@@ -1,0 +1,51 @@
+/* reset van het document */
+body {
+  margin: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* de navigatie */
+nav {
+  background-color: #47a;
+}
+nav ul {
+  list-style-type: none;
+}
+nav a, nav label {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 0.5em 1em;
+}
+nav a:hover, nav label:hover {
+  background-color: #355e86;
+}
+nav ul {
+  display: grid;
+  -webkit-grid-template-columns: 1fr 1fr 1fr 1fr;
+  -moz-grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-template-columns: 1fr 1fr 1fr 1fr;
+  -o-grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+nav ul a, nav ul label {
+  text-align: center;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+aside {
+  background-color: #aac4dd;
+}
+
+footer {
+  background-color: #47a;
+}
+
+/*# sourceMappingURL=main.css.map */

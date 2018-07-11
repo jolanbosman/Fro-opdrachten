@@ -1,0 +1,22 @@
+//importeer variabelen
+@import 'vars';
+//de mixins
+@import 'mixins';
+//reset stijlen
+@import 'reset';
+//de navigatie
+@import 'navigatie';
+
+body {
+  font-family: sans-serif;
+}
+
+
+
+aside {
+  background-color: $lichter;
+}
+
+footer {
+  background-color: $hoofdkleur;
+}
