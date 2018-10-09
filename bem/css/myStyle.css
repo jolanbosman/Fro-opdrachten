@@ -1,0 +1,65 @@
+.html, .body__cover {
+  font-family: sans-serif;
+  font-size: .8em;
+  padding: 0;
+  margin: 0;
+}
+
+/* section beperken in breedte en hoogte */
+.cover {
+  width: 320px;
+  height: 320px;
+  overflow: hidden;
+  margin-bottom: 2em;
+}
+ .cover__image{
+  display: block;
+}
+
+ .cover__article {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 1.5em;
+  box-sizing: border-box;
+  width: 320px;
+  height: 320px;
+  transition: transform 1s;
+}
+.cover__image {
+  width: 320px;
+}
+
+.cover:hover .cover__article {
+  transform: translateY(-322px);
+}
+
+/* 2 koloms layout */
+@media screen and (min-width: 660px) {
+  .body__cover {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .cover__article {
+    justify-self: center;
+  }
+  .cover{
+    justify-self: center;
+  }
+}
+
+
+
+/* 3 koloms layout */
+@media screen and (min-width: 980px) {
+  .body__cover {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+}
+
+/* 4 koloms layout */
+@media screen and (min-width: 1300px) {
+  .body__cover {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+}
